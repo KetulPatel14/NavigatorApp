@@ -10,15 +10,34 @@ import UIKit
 
 class FormViewController: UIViewController {
 
+    @IBOutlet weak var firstName: UITextField!
+    @IBOutlet weak var lastName: UITextField!
+    @IBOutlet weak var emailId: UITextField!
+    @IBOutlet weak var address: UITextField!
+    @IBOutlet weak var city: UITextField!
+    @IBOutlet weak var county: UITextField!
+    @IBOutlet weak var postalCode: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
 
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destVC = segue.destination as! InfoViewController
+        destVC.fName = firstName.text!
+        destVC.lName = lastName.text!
+        destVC.emId = emailId.text!
+        destVC.addr = address.text!
+        destVC.cty = city.text!
+        destVC.cntry = county.text!
+        destVC.psCode = postalCode.text!
+        
     }
     
 

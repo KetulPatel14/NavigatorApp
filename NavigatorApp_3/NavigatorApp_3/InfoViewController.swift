@@ -10,8 +10,26 @@ import UIKit
 
 class InfoViewController: UIViewController {
 
+    @IBOutlet weak var firstName: UILabel!
+    @IBOutlet weak var lastName: UILabel!
+    @IBOutlet weak var emailId: UILabel!
+    @IBOutlet weak var address: UILabel!
+    @IBOutlet weak var city: UILabel!
+    @IBOutlet weak var county: UILabel!
+    @IBOutlet weak var postalCode: UILabel!
+    
+    var fName = "", lName="", emId="", addr="", cty="", cntry="", psCode=""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        firstName.text = "First Name: " + fName
+        lastName.text = "Last Name: " + lName
+        emailId.text = "Email Id: " + emId
+        address.text = "Address: " + addr
+        city.text = "City: " + cty
+        county.text = "County: " + cntry
+        postalCode.text = "Postal Code: " + psCode
 
         // Do any additional setup after loading the view.
     }
