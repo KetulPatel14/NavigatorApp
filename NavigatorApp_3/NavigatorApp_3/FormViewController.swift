@@ -29,14 +29,19 @@ class FormViewController: UIViewController {
     
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let destVC = segue.destination as! InfoViewController
-        destVC.fName = firstName.text!
-        destVC.lName = lastName.text!
-        destVC.emId = emailId.text!
-        destVC.addr = address.text!
-        destVC.cty = city.text!
-        destVC.cntry = county.text!
-        destVC.psCode = postalCode.text!
+        
+        if(segue.identifier == "toInfoView"){
+            let destVC = segue.destination as! InfoViewController
+            
+            destVC.fName = firstName.text!
+            destVC.lName = lastName.text!
+            destVC.emId = emailId.text!
+            destVC.addr = address.text!
+            destVC.cty = city.text!
+            destVC.cntry = county.text!
+            destVC.psCode = postalCode.text!
+        }
+       
         
     }
     
