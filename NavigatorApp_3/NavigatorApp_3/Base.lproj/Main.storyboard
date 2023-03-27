@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="-199" y="117"/>
         </scene>
-        <!--View Controller-->
+        <!--Form View Controller-->
         <scene sceneID="J9Q-bZ-bkl">
             <objects>
-                <viewController id="BfN-vq-dXD" sceneMemberID="viewController">
+                <viewController id="BfN-vq-dXD" customClass="FormViewController" customModule="NavigatorApp_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rop-q3-yq4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,10 +187,10 @@
             </objects>
             <point key="canvasLocation" x="1388" y="654"/>
         </scene>
-        <!--View Controller-->
+        <!--Info View Controller-->
         <scene sceneID="mpL-aT-u4B">
             <objects>
-                <viewController id="0sv-Sa-dch" sceneMemberID="viewController">
+                <viewController id="0sv-Sa-dch" customClass="InfoViewController" customModule="NavigatorApp_3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hkq-ib-KPb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -13,6 +13,8 @@
 		41311D5729D1F1840057C817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41311D5629D1F1840057C817 /* Assets.xcassets */; };
 		41311D5A29D1F1840057C817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41311D5829D1F1840057C817 /* LaunchScreen.storyboard */; };
 		41311D6529D1F1840057C817 /* NavigatorApp_3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41311D6429D1F1840057C817 /* NavigatorApp_3UITests.swift */; };
+		41311D7029D1F6EF0057C817 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41311D6F29D1F6EF0057C817 /* FormViewController.swift */; };
+		41311D7229D1F7270057C817 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41311D7129D1F7270057C817 /* InfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		41311D6029D1F1840057C817 /* NavigatorApp_3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigatorApp_3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41311D6429D1F1840057C817 /* NavigatorApp_3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigatorApp_3UITests.swift; sourceTree = "<group>"; };
 		41311D6629D1F1840057C817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41311D6F29D1F6EF0057C817 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		41311D7129D1F7270057C817 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				41311D5629D1F1840057C817 /* Assets.xcassets */,
 				41311D5829D1F1840057C817 /* LaunchScreen.storyboard */,
 				41311D5B29D1F1840057C817 /* Info.plist */,
+				41311D6F29D1F6EF0057C817 /* FormViewController.swift */,
+				41311D7129D1F7270057C817 /* InfoViewController.swift */,
 			);
 			path = NavigatorApp_3;
 			sourceTree = "<group>";
@@ -197,7 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41311D7029D1F6EF0057C817 /* FormViewController.swift in Sources */,
 				41311D5229D1F17D0057C817 /* ViewController.swift in Sources */,
+				41311D7229D1F7270057C817 /* InfoViewController.swift in Sources */,
 				41311D5029D1F17D0057C817 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
