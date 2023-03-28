@@ -15,10 +15,10 @@ class InfoViewController: UIViewController {
     @IBOutlet weak var emailId: UILabel!
     @IBOutlet weak var address: UILabel!
     @IBOutlet weak var city: UILabel!
-    @IBOutlet weak var county: UILabel!
+    @IBOutlet weak var password: UILabel!
     @IBOutlet weak var postalCode: UILabel!
     
-    var fName = "", lName="", emId="", addr="", cty="", cntry="", psCode=""
+    var fName = "", lName="", emId="", addr="", cty="", psswd="", psCode=""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,9 +26,9 @@ class InfoViewController: UIViewController {
         firstName.text = "First Name: " + fName
         lastName.text = "Last Name: " + lName
         emailId.text = "Email Id: " + emId
-        address.text = "Address: " + addr
+        address.text = "Street Address: " + addr
         city.text = "City: " + cty
-        county.text = "County: " + cntry
+        password.text = "Password: " + psswd
         postalCode.text = "Postal Code: " + psCode
 
         // Do any additional setup after loading the view.

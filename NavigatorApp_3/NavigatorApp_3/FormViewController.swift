@@ -15,7 +15,7 @@ class FormViewController: UIViewController {
     @IBOutlet weak var emailId: UITextField!
     @IBOutlet weak var address: UITextField!
     @IBOutlet weak var city: UITextField!
-    @IBOutlet weak var county: UITextField!
+    @IBOutlet weak var password: UITextField!
     @IBOutlet weak var postalCode: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +38,7 @@ class FormViewController: UIViewController {
             destVC.emId = emailId.text!
             destVC.addr = address.text!
             destVC.cty = city.text!
-            destVC.cntry = county.text!
+            destVC.psswd = password.text!
             destVC.psCode = postalCode.text!
         }
        

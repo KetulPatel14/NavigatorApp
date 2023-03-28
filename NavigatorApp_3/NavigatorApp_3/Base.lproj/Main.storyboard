@@ -181,6 +181,7 @@
                         <outlet property="emailId" destination="Nww-kj-fYT" id="7Kr-49-ZVC"/>
                         <outlet property="firstName" destination="1gr-lH-RmC" id="I3G-E1-iQX"/>
                         <outlet property="lastName" destination="nK9-Cg-Yf5" id="yHm-mY-zEE"/>
+                        <outlet property="password" destination="bz2-AQ-m7c" id="jyf-cd-OmS"/>
                         <outlet property="postalCode" destination="Oda-Xi-cKg" id="CRp-Cq-aKL"/>
                     </connections>
                 </viewController>
@@ -293,6 +294,7 @@
                         <outlet property="emailId" destination="Ryd-gW-K6U" id="SEp-YZ-xfk"/>
                         <outlet property="firstName" destination="rfO-h1-Ag0" id="XwG-Rw-g8g"/>
                         <outlet property="lastName" destination="zIo-tw-oaG" id="VAP-4y-8J1"/>
+                        <outlet property="password" destination="9gu-aS-gN3" id="Aem-2K-Exi"/>
                         <outlet property="postalCode" destination="1ov-aF-d5Z" id="uqQ-Ho-KS5"/>
                     </connections>
                 </viewController>
