@@ -20,7 +20,7 @@ class InfoViewController: UIViewController {
     @IBOutlet weak var passWordTxt: UILabel!
     @IBOutlet weak var postalCode: UILabel!
     
-    var fName = "", lName="", emId="", addr="", cty="", cnty="", psCode="", pswd=""
+    var fName = "", lName="", emId="", addr="", cty="", psCode="", pswd=""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -37,10 +37,7 @@ class InfoViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
+    
     
 
     /*
